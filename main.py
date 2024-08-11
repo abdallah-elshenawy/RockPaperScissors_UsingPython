@@ -2,7 +2,7 @@ import random
 
 print("Welcome to the Rock, Paper, Scissors game: ")
 choice = input("Press enter to continue or type (Help) for the rules: ").lower()
-if (choice == "Help"):
+if (choice == "help"):
    print("\n\t\t********** RULES **********")
    print("\t\t1) You choose and the computer chooses")
    print("\t\t2) Rock smashes Scissors -> Rock wins")
