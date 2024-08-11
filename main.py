@@ -1,7 +1,7 @@
 import random
 
 print("Welcome to the Rock, Paper, Scissors game: ")
-choice = input("Press enter to continue or type (Help) for the rules: ").capitalize()
+choice = input("Press enter to continue or type (Help) for the rules: ").lower()
 if (choice == "Help"):
    print("\n\t\t********** RULES **********")
    print("\t\t1) You choose and the computer chooses")
